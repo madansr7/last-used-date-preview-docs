@@ -131,7 +131,7 @@ The following is an example of the request.
   "name": "get_serviceprincipal_last_signin_1"
 }-->
 
-```msgraph-interactive
+```http
 GET https://graph.microsoft.com/beta/reports/servicePrincipalSignInActivities/ODNmNDUyOTYtZmI4Zi00YWFhLWEzOTktYWM1MTA4NGUwMmI3
 ```
 
