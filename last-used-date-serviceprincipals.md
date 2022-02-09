@@ -249,11 +249,11 @@ The sign-in activities for a servicePrincipal. Contains information about last u
 
 #### Supported query patterns
 
-| Pattern                | Supported | Syntax                                                                                                           |
-| ---------------------- | :-------: | ---------------------------------------------------------------------------------------------------------------- |
-| Server-side pagination |     ✓     | `@odata.nextLink`                                                                                                |
-| Filter                 |     ✓     | `/servicePrincipalSignInActivities?$filter=delegatedClientSignInActivity/lastSignInDate lt 2020-01-01T00:00:00Z` |
-| Filter                 |     ✓     | `/servicePrincipalSignInActivities?$filter=appId eq 'f4d9654f-0305-4072-878c-8bf266dfe146'`                      |
+| Pattern                | Supported | Syntax                                                                                                               |
+| ---------------------- | :-------: | -------------------------------------------------------------------------------------------------------------------- |
+| Server-side pagination |     ✓     | `@odata.nextLink`                                                                                                    |
+| Filter                 |     ✓     | `/servicePrincipalSignInActivities?$filter=delegatedClientSignInActivity/lastSignInDateTime lt 2020-01-01T00:00:00Z` |
+| Filter                 |     ✓     | `/servicePrincipalSignInActivities?$filter=appId eq 'f4d9654f-0305-4072-878c-8bf266dfe146'`                          |
 
 ### reportRoot entity (existing)
 
