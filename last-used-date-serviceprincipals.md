@@ -94,6 +94,10 @@ Content-type: application/json
       "applicationAuthenticationResourceSignInActivity": {
         "lastSignInDateTime": "2021-04-01T00:00:00-8:00",
         "lastSignInRequestId": "0f251de7-e611-41fb-bed0-6eb650757e72"
+      },
+      "lastSignInActivity": {
+        "lastSignInDateTime": "2021-04-01T00:00:00Z",
+        "lastSignInRequestId": "0f251de7-e611-41fb-bed0-6eb650757e72"
       }
     },
     {
@@ -113,6 +117,10 @@ Content-type: application/json
       },
       "applicationAuthenticationResourceSignInActivity": {
         "lastSignInDateTime": "2021-04-01T00:00:00-8:00",
+        "lastSignInRequestId": "b26f6bf8-af96-4f2a-bef7-07913f634d6d"
+      },
+      "lastSignInActivity": {
+        "lastSignInDateTime": "2021-04-01T00:00:00Z",
         "lastSignInRequestId": "b26f6bf8-af96-4f2a-bef7-07913f634d6d"
       }
     }
@@ -168,6 +176,10 @@ Content-type: application/json
      "applicationAuthenticationResourceSignInActivity": {
           "lastSignInDateTime": "2021-04-01T00:00:00-8:00",
           "lastSignInRequestId": "0f251de7-e611-41fb-bed0-6eb650757e72"
+     },
+     "lastSignInActivity": {
+          "lastSignInDateTime": "2021-04-01T00:00:00Z",
+          "lastSignInRequestId": "0f251de7-e611-41fb-bed0-6eb650757e72"
      }
 }
 ```
@@ -215,6 +227,10 @@ Content-type: application/json
      },
      "applicationAuthenticationResourceSignInActivity": {
           "lastSignInDateTime": "2021-04-01T00:00:00-8:00",
+          "lastSignInRequestId": "b26f6bf8-af96-4f2a-bef7-07913f634d6d"
+     },
+     "lastSignInActivity": {
+          "lastSignInDateTime": "2021-04-01T00:00:00Z",
           "lastSignInRequestId": "b26f6bf8-af96-4f2a-bef7-07913f634d6d"
      }
 }
