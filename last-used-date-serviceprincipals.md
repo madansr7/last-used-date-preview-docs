@@ -94,6 +94,10 @@ Content-type: application/json
       "applicationAuthenticationResourceSignInActivity": {
         "lastSignInDateTime": "2021-04-01T00:00:00-8:00",
         "lastSignInRequestId": "0f251de7-e611-41fb-bed0-6eb650757e72"
+      },
+      "lastSignInActivity": {
+        "lastSignInDateTime": "2021-04-01T00:00:00Z",
+        "lastSignInRequestId": "0f251de7-e611-41fb-bed0-6eb650757e72"
       }
     },
     {
@@ -113,6 +117,10 @@ Content-type: application/json
       },
       "applicationAuthenticationResourceSignInActivity": {
         "lastSignInDateTime": "2021-04-01T00:00:00-8:00",
+        "lastSignInRequestId": "b26f6bf8-af96-4f2a-bef7-07913f634d6d"
+      },
+      "lastSignInActivity": {
+        "lastSignInDateTime": "2021-04-01T00:00:00Z",
         "lastSignInRequestId": "b26f6bf8-af96-4f2a-bef7-07913f634d6d"
       }
     }
@@ -168,6 +176,10 @@ Content-type: application/json
      "applicationAuthenticationResourceSignInActivity": {
           "lastSignInDateTime": "2021-04-01T00:00:00-8:00",
           "lastSignInRequestId": "0f251de7-e611-41fb-bed0-6eb650757e72"
+     },
+     "lastSignInActivity": {
+          "lastSignInDateTime": "2021-04-01T00:00:00Z",
+          "lastSignInRequestId": "0f251de7-e611-41fb-bed0-6eb650757e72"
      }
 }
 ```
@@ -216,6 +228,10 @@ Content-type: application/json
      "applicationAuthenticationResourceSignInActivity": {
           "lastSignInDateTime": "2021-04-01T00:00:00-8:00",
           "lastSignInRequestId": "b26f6bf8-af96-4f2a-bef7-07913f634d6d"
+     },
+     "lastSignInActivity": {
+          "lastSignInDateTime": "2021-04-01T00:00:00Z",
+          "lastSignInRequestId": "b26f6bf8-af96-4f2a-bef7-07913f634d6d"
      }
 }
 ```
@@ -236,6 +252,7 @@ The sign-in activities for a servicePrincipal. Contains information about last u
 | `delegatedResourceSignInActivity`                 | `microsoft.graph.signInActivity` | The sign-in activity of the application in a delegated flow (user sign in) where the application is acting like a resource.          | No  | Yes      |
 | `applicationAuthenticationClientSignInActivity`   | `microsoft.graph.signInActivity` | The sign-in activity of the application in a app-only auth flow (app to app tokens) where the application is acting like a client.   | No  | Yes      |
 | `applicationAuthenticationResourceSignInActivity` | `microsoft.graph.signInActivity` | The sign-in activity of the application in a app-only auth flow (app to app tokens) where the application is acting like a resource. | No  | Yes      |
+| `lastSignInActivity` | `microsoft.graph.signInActivity` | The most recent sign-in activity of the application across delegated or app only flows where the application is used like a client or resource. | No  | Yes      |
 
 #### Supported functionality
 
