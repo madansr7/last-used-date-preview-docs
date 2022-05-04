@@ -60,6 +60,7 @@ HTTP/1.1 200 OK
     {
       "id": "ODNmNDUyOTYtZmI4Zi00YWFhLWEzOTktYWM1MTA4NGUwMmI3fGFwcGxpY2F0aW9u",
       "keyId": "83f45296-fb8f-4aaa-a399-ac51084e02b7",
+      "keyType":"certificate",
       "keyUsage": "sign",
       "appId": "f4d9654f-0305-4072-878c-8bf266dfe146",
       "appObjectId": "6920caa5-1cae-4bc8-bf59-9c0b8495d240",
@@ -75,6 +76,7 @@ HTTP/1.1 200 OK
     {
       "id": "OGEzN2NmZWMtYjBhMS00Y2IxLWFjMDgtYzUyYjAzODM0ZjRhfHNlcnZpY2VQcmluY2lwYWw=",
       "keyId": "8a37cfec-b0a1-4cb1-ac08-c52b03834f4a",
+      "keyType":"certificate",
       "keyUsage": "verify",
       "appId": "09e9da93-c1e8-4000-8b96-1ea6a12acf72",
       "appObjectId": "2e9276ec-7895-41f0-b63c-4d1d94552362",
@@ -109,6 +111,7 @@ HTTP/1.1 200 OK
 {
   "id": "ODNmNDUyOTYtZmI4Zi00YWFhLWEzOTktYWM1MTA4NGUwMmI3fGFwcGxpY2F0aW9u",
   "keyId": "83f45296-fb8f-4aaa-a399-ac51084e02b7",
+  "keyType":"certificate",
   "keyUsage": "sign",
   "appId": "f4d9654f-0305-4072-878c-8bf266dfe146",
   "appObjectId": "6920caa5-1cae-4bc8-bf59-9c0b8495d240",
@@ -141,6 +144,7 @@ HTTP/1.1 200 OK
 {
   "id": "ODNmNDUyOTYtZmI4Zi00YWFhLWEzOTktYWM1MTA4NGUwMmI3fGFwcGxpY2F0aW9u",
   "keyId": "83f45296-fb8f-4aaa-a399-ac51084e02b7",
+  "keyType":"secret",
   "keyUsage": "sign",
   "appId": "f4d9654f-0305-4072-878c-8bf266dfe146",
   "appObjectId": "6920caa5-1cae-4bc8-bf59-9c0b8495d240",
@@ -172,6 +176,7 @@ HTTP/1.1 200 OK
 {
   "id": "ODNmNDUyOTYtZmI4Zi00YWFhLWEzOTktYWM1MTA4NGUwMmI3fGFwcGxpY2F0aW9u",
   "keyId": "83f45296-fb8f-4aaa-a399-ac51084e02b7",
+  "keyType":"secret",
   "keyUsage": "sign",
   "appId": "f4d9654f-0305-4072-878c-8bf266dfe146",
   "resourceId": "a89dc091-a671-4da4-9fcf-3ef06bdf3ac3",
@@ -199,6 +204,7 @@ A sign in activity for a credential. Contains information around usage time of t
 | -------------------------- | ------------------------------ | ----------------------------------------------------------------------------------------------------- | --- | -------- | -------- |
 | `id`                       | `string`                       | The unique identifier of the appCredentialSignInActivity instance in the response.                    | Yes | Yes      | Yes      |
 | `keyId`                    | `string`                       | The key id of the credential.                                                                         | No  | Yes      | Yes      |
+| `keyType`                 | `string`                         | Specifies the key type; "certificate" or "secret".                          | No  | Yes      | Yes      |
 | `keyUsage`                 | `enum`                         | Specifies what the key was used for; possible values are "sign" or "verify".                          | No  | Yes      | Yes      |
 | `appId`                    | `string`                       | The id of the credential application.                                                                 | No  | Yes      | Yes      |
 | `appObjectId`              | `string`                       | The id of the credential application instance.                                                        | No  | No       | Yes      |
